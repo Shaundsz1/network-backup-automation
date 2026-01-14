@@ -1,0 +1,17 @@
+# Device Inventory Template
+# Copy this file to device_inventory.yaml and fill in your details
+
+devices:
+  - device_type: cisco_ios
+    host: 192.168.1.1
+    username: admin
+    password: your_password
+    port: 22
+    device_name: Router-01
+  
+  - device_type: cisco_ios
+    host: 192.168.1.2
+    username: admin
+    password: your_password
+    port: 22
+    device_name: Switch-01

@@ -1,0 +1,26 @@
+```
+```
+# Virtual Environment
+venv/
+env/
+*.pyc
+__pycache__/
+
+# Sensitive Files
+device_inventory.yaml
+email_config.yaml
+
+# Backups and Logs
+backups/
+logs/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS Files
+.DS_Store
+Thumbs.db
